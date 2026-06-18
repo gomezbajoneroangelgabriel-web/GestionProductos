@@ -96,8 +96,7 @@
                             <td class="border p-3">
                                 @if($producto->imagen)
 
-                                    <img
-                                        src="{{ asset('storage/' . $producto->imagen) }}"
+                                    <img src="{{ asset('storage/' . $producto->imagen) }}"
                                         alt="{{ $producto->producto }}"
                                         class="w-20 h-20 object-cover rounded mx-auto">
 
